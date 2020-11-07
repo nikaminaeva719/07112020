@@ -1,0 +1,11 @@
+a,b = map(int, input().split())
+summ = 0
+p = 0
+for i in range(a,b+1):
+
+    if i % 3 == 0:
+    
+        summ += i
+            
+        p += 1
+print(summ/p) 
