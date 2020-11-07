@@ -1,0 +1,4 @@
+import random
+mi = [int(random.random()*20) for i in range(20)]
+mi=mi[::3]
+print(len(mi))
